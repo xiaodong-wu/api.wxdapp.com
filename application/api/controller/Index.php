@@ -6,7 +6,11 @@
     class Index extends Controller
     {
         public function index(){
-            return 'api/index/index';
+            echo 'api/index/index';
+        }
+
+        public function think(){
+            echo 'think';
         }
 
     }

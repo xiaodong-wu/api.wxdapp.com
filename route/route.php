@@ -9,5 +9,6 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-    Route::get('api', 'api/index/index');
+    Route::get('api', 'api/index/index')->middleware('Check');
+    Route::get('think', 'api/index/think')->middleware('Check');
 
